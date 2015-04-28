@@ -17,7 +17,7 @@ For example :
 
 Here is a sample script for RB 4.2.0 install with CI 3.0.0
 
-**RedBeanPHP install**
+**Embed RedBeanPHP into CI**
 
     cd ${CI}/application/third_party/
     wget http://redbeanphp.com/downloads/RedBeanPHP4_2_0.tar.gz
