@@ -14,6 +14,6 @@ class Rbtest extends CI_Controller {
     var_dump($news);
 
     $data['news'] = $news;
-    $this->load->view('cirblibtest', $data);
+    $this->load->view('rbtest', $data);
   }
 }
