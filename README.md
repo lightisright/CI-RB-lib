@@ -77,7 +77,7 @@ In case you don't have CodeIgniter News tutorial environment (DB, data, ...) set
     echo "grant all privileges on ci_tutorial.* to ci@'localhost' identified by 'test';" | mysql -u root -p
     echo "grant all privileges on ci_tutorial.* to ci@'%' identified by 'test';" | mysql -u root -p
     echo "CREATE TABLE news (id int(11) NOT NULL AUTO_INCREMENT,title varchar(128) NOT NULL,slug varchar(128) NOT     NULL,text text NOT NULL,PRIMARY KEY (id),KEY slug (slug));" | mysql -u ci -ptest -D ci_tutorial
-    echo "insert into news(title, slug) values ('News 1', 'AZERTY'), ('News 2', 'QWERTY');" | mysql -u ci -ptest -D ci_tutorial
+    echo "insert into news(title, text, slug) values ('News 1', 'AZERTY', 'AZERTY'), ('News 2', 'QWERTY', 'QWERTY');" | mysql -u ci -ptest -D ci_tutorial
 
 **Test route**
 
