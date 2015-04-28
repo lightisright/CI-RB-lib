@@ -71,6 +71,7 @@ A test controller has been created to work with CodeIgniter "News" tutorial (htt
 
 **Note**
 In case you don't have CodeIgniter News tutorial environment (DB, data, ...) set, here is a sample commands which should help you to create it quickly
+
     echo "create user ci authentified by 'test';" | mysql -u root -p
     echo "grant all privileges on ci_tutorial.* to ci@'localhost' identified by 'test';" | mysql -u root -p
     echo "grant all privileges on ci_tutorial.* to ci@'%' identified by 'test';" | mysql -u root -p
