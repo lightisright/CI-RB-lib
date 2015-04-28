@@ -83,7 +83,7 @@ In case you don't have CodeIgniter News tutorial environment (DB, data, ...) set
 
 Then create a new route for CI-RB-lib test controller in ${CI}/application/config/routes.php
 
-    $route['rbtest'] = 'cirblibtest';
+    $route['rbtest'] = 'rbtest';
 
 Then you can test news list RedBeanPHP Bean objects output by following the /rbtest route of your CodeIgniter installation.
 
