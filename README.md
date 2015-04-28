@@ -1,7 +1,7 @@
 # CI-RB-lib
 Simple library for RedBeanPHP ORM integration into CodeIgniter PHP Framework
 
-This library has been tested with CodeIgniter 2.2.x & 3.0.0 & MySQL
+This library has been tested with CodeIgniter 2.2.x & 3.0.0, MySQL & RebBeanPHP 3.5 & 4.2.0
 
 **See**
  * http://www.codeigniter.com
@@ -73,4 +73,6 @@ Create a new route for CI-RB-lib test controller in ${CI}/application/config/rou
 
     $route['rbtest'] = 'cirblibtest';
 
-Then go to
+Then you can test news list output by following the /rbtest route of your CodeIgniter installation.
+
+
